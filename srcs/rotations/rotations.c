@@ -6,14 +6,14 @@
 /*   By: jules <jules@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/21 01:46:16 by jules             #+#    #+#             */
-/*   Updated: 2024/03/21 01:58:38 by jules            ###   ########.fr       */
+/*   Updated: 2024/04/15 21:41:05 by jules            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "vector.h"
 #include <math.h>
 
-t_vec3	rotate_X(t_vec3 v, float angle)
+t_vec3	rotate_x(t_vec3 v, float angle)
 {
 	t_vec3	res;
 
@@ -23,7 +23,7 @@ t_vec3	rotate_X(t_vec3 v, float angle)
 	return (res);
 }
 
-t_vec3	rotate_Y(t_vec3 v, float angle)
+t_vec3	rotate_y(t_vec3 v, float angle)
 {
 	t_vec3	res;
 
@@ -33,7 +33,7 @@ t_vec3	rotate_Y(t_vec3 v, float angle)
 	return (res);
 }
 
-t_vec3	rotate_Z(t_vec3 v, float angle)
+t_vec3	rotate_z(t_vec3 v, float angle)
 {
 	t_vec3	res;
 
