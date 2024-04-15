@@ -47,6 +47,6 @@ re:		fclean
 			$(MAKE) all
 
 -include $(DEPS)
-$(DIR_BUILD)%.o : $(SRC_PATH)%.c
+$(DIR_BUILD)%.o : $(SRC_PATH)%.c Makefile
 			@mkdir -p $(shell dirname $@)
 			$(CC) $(FLAGS) $(DEPS_FLAGS) $(LIBS) $(INCLUDES) -c $< -o $@
