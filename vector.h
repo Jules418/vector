@@ -6,7 +6,7 @@
 /*   By: jules <jules@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/20 23:34:16 by jules             #+#    #+#             */
-/*   Updated: 2024/03/21 01:47:41 by jules            ###   ########.fr       */
+/*   Updated: 2024/04/15 22:05:07 by jules            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,8 @@ t_vec3	normalize(t_vec3 *v);
 t_vec3	q_normalized(t_vec3 v);
 t_vec3	q_normalize(t_vec3 *v);
 
-t_vec3	rotate_X(t_vec3 v, float angle);
-t_vec3	rotate_Y(t_vec3 v, float angle);
-t_vec3	rotate_Z(t_vec3 v, float angle);
+t_vec3	rotate_x(t_vec3 v, float angle);
+t_vec3	rotate_y(t_vec3 v, float angle);
+t_vec3	rotate_z(t_vec3 v, float angle);
 
 #endif
