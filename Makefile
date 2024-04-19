@@ -1,4 +1,4 @@
-NAME = vector.a
+NAME = libvector.a
 
 include config/srcs.mk
 SRC_PATH			=	srcs/
@@ -49,4 +49,4 @@ re:		fclean
 -include $(DEPS)
 $(DIR_BUILD)%.o : $(SRC_PATH)%.c Makefile
 			@mkdir -p $(shell dirname $@)
-			$(CC) $(FLAGS) $(DEPS_FLAGS) $(LIBS) $(INCLUDES) -c $< -o $@
+			$(CC) $(FLAGS) $(DEPS_FLAGS) $(INCLUDES) -c $< -o $@
